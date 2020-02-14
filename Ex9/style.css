@@ -1,19 +1,35 @@
 body {
-  border-left: 20px;
-  border-right: 20px;
-  border-top: 20px;
-  border-bottom: 20px;
-  border-color: #bdc3c7;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+  font-family: Source Sans Pro;
 }
 
 h2 {
   color: #2c3e50;
-}
-
-p {
+  font-size: 2.0rem;
   font-family: Source Sans Pro;
 }
 
 .p1 {
-  font-family: Source Sans Pro;
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+.date {
+  text-transform: uppercase;
+  color: #3498db;
+  letter-spacing: 0.2rem;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

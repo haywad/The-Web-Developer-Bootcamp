@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form action="file:///C:/Users/yusufzaih/Documents/Sublime/SS/Code/main_page.html" method="post">
+		<label for="name">First Name: </label>
+		<input id="name" type="text" required name="text">
+		<label for="name'">Last Name: </label>
+		<input id="name" type="text" required name="text">
+
+	<div>
+		<label for="male">Male</label>
+		<input name="gender" id="male" type="radio" value="male">
+		<label for="female">Female</label>
+		<input name="gender" id="female" type="radio" value="female">
+		<label for="other">Other</label>
+		<input name="gender" id="other" type="radio" value="other">
+	</div>
+
+	<div>
+		<label for="email">Email: </label>
+		<input id="email" type="email" required name="email">
+		<label for="password">Password: </label>
+		<input id="password" type="password" minlength="6"
+       maxlength="16" size="20" required name="password">
+	</div>
+
+	<div>
+		<label>Birthday
+			<select name="Month">
+				<option value="January">January</option>
+				<option value="Febuary">Febuary</option>
+				<option value="March">March</option>
+			</select>
+			<select name="Day">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<select name="Year">
+				<option value="1997">1997</option>
+				<option value="1998">1998</option>
+				<option value="1999">1999</option>
+			</select>
+		</label>
+	</div>
+
+	<div>
+		<label for="checkbox">I agree to the terms and condition </label>
+		<input id="checkbox" type="checkbox" required name="checkbox">
+	</div>
+
+		<button>Submit</button>
+	</form>
+	
+
+</body>
+</html>
